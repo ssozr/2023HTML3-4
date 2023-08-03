@@ -1,0 +1,33 @@
+.blog {
+    .img {
+        @include background-image;
+        height: 400px;
+        max-width: 636px;
+        &-1 {
+            background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blog-1.png?raw=true);
+        }
+        &-2 {
+            background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blog-2.png?raw=true);
+        }
+        &-3 {
+            background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blog-3.png?raw=true);
+        }
+        &-4 {
+            background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blog-4.png?raw=true);
+        }
+        &-5 {
+            background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blog-5.png?raw=true);
+        }
+    }
+    @media (max-width:992px){
+        .img {
+            height: 208px;
+            max-width: 336px;
+        }
+    }
+    @media (max-width:767px){
+        .img {
+            max-width: 348px;
+        }
+    }
+}

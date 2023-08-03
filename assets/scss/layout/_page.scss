@@ -1,0 +1,49 @@
+.page {
+    li {
+        border: 1px solid #555555;
+    }
+    a {
+        color: #555555;
+    }
+    &-pre,&-next {
+        a {
+            padding: 11px 12px;
+            display: block;
+        }
+        a:hover {
+            background-color: #000000;
+            opacity:1;
+            color: white;
+        }
+        font-size: 19px;
+    }
+    &-number {
+        a {
+            padding: 12px 16px;
+            display: block;
+        }
+        a:hover {
+            background-color: #000000;
+            opacity:1;
+            color: white;
+        }
+        font-size: 18px;
+    }
+    .active {
+        background-color: #000000;
+        a {
+            color: #FFFFFF;
+        }
+    }
+
+    @media (max-width:767px){
+        .page {
+            &-number {
+                font-size: 16px;
+            }
+            &-pre,&-next {
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.store {
+    select {
+        color: #495057;
+        border: 1px solid #CED4DA;
+        font-size: 18px;
+    }
+    img {
+        height: 224px;
+        max-width: 100%;
+    }
+    .border-lg {
+        border: 1px solid #00000020;
+    }
+    .border-bottom {
+        border-bottom: 1px solid #00000020;
+    }
+    h3 {
+        padding: 8px 24px;
+    }
+    .content {
+        padding: 16px 24px;
+    }
+    .map {
+        max-width: 100%;
+    }
+
+    @media (max-width:992px){
+        img {
+            width: 48%;
+        }
+        .border-lg {
+            border:0
+        }
+    }
+
+    @media (max-width:767px){
+        img {
+            max-width: 100%;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.address {
+    select {
+        color: #495057;
+        border: 1px solid #CED4DA;
+        font-size: 18px;
+    }
+    img {
+        height: 224px;
+        max-width: 100%;
+    }
+    .border {
+        border: 1px solid #00000020;
+    }
+    .border-bottom {
+        border-bottom: 1px solid #00000020;
+    }
+    h3 {
+        padding: 8px 24px;
+    }
+    .content {
+        padding: 16px 24px;
+    }
+    span {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    ul {
+        a {
+            padding: 16px 170px;
+            background-color: black;
+            color: white;
+        }
+    }
+    @media (max-width:767px){
+        ul {
+            a {
+                padding: 16px 137px;
+                font-size: 19px;
+            }
+        }
+        h2 {
+            margin-bottom: 24px;
+        }
+    }
+}
