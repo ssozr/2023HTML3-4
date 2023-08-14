@@ -1,8 +1,10 @@
 .banner {
+  height: 787px;
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true);
   @include background-image;
 
   @media(max-width: 767px){
+    height: 396px;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
   }
 }
@@ -92,5 +94,8 @@
     a {
       padding: 16px 136px;
     }
+  }
+  input, textarea {
+    background-color: transparent;
   }
 }

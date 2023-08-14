@@ -6,7 +6,8 @@
     }
     img {
         height: 224px;
-        max-width: 100%;
+        width: 100%;
+        object-fit: cover;
     }
     .border-lg {
         border: 1px solid #00000020;
@@ -35,7 +36,7 @@
 
     @media (max-width:767px){
         img {
-            max-width: 100%;
+            width: 100%;
         }
     }
 }
